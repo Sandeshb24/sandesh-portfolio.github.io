@@ -3,12 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
-    <!-- Tailwind CSS CDN -->
+    <title>Sandesh - Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google Fonts - IBM Plex Sans & IBM Plex Mono -->
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
-    <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         /* Base styles using IBM Plex Sans */
@@ -228,10 +225,8 @@
     </style>
 </head>
 <body class="min-h-screen relative text-gray-200 antialiased">
-    <!-- Canvas for animated background particles -->
     <canvas id="backgroundCanvas"></canvas>
 
-    <!-- Header/Navigation -->
     <header id="main-header" class="bg-gray-900 bg-opacity-80 sticky top-0 z-50 shadow-lg py-4">
         <nav class="container mx-auto flex flex-col md:flex-row justify-between items-center px-4">
             <a href="#" class="text-3xl font-extrabold text-blue-400 hover:text-blue-300 transition duration-300">Sandesh's Portfolio</a>
@@ -246,14 +241,13 @@
     </header>
 
     <main class="relative z-10">
-        <!-- Hero Section -->
         <section id="home" class="h-screen flex items-center justify-center text-center bg-transparent py-20 px-4">
             <div class="max-w-4xl mx-auto">
                 <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-6 text-blue-300 drop-shadow-lg hero-heading-clip">
                     Hi, I'm <span class="text-blue-400">Sandesh Ravindra Bhat</span>
                 </h1>
                 <p class="text-xl md:text-2xl mb-8 leading-relaxed word-reveal-paragraph">
-                    A passionate <span class="font-semibold text-yellow-300">Data Scientist & ML Engineer</span> building intelligent experiences.
+                    A passionate <span class="font-semibold text-yellow-300">Data Analyst & AI ML Enthusiast</span> building AI projects 
                 </p>
                 <div class="flex flex-col sm:flex-row justify-center gap-4 animate-on-scroll" data-delay="0.4">
                     <a href="#projects" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
@@ -266,31 +260,32 @@
             </div>
         </section>
 
-        <!-- About Section -->
         <section id="about" class="container mx-auto py-20 px-4 text-center animate-on-scroll">
             <h2 class="text-4xl md:text-5xl font-bold mb-12 text-blue-300 animate-on-scroll">About Me</h2>
             <div class="flex flex-col md:flex-row items-center justify-center gap-10 max-w-4xl mx-auto animate-on-scroll stagger">
                 <div class="md:w-1/3 flex justify-center">
-                    <img src="https://placehold.co/300x300/4a5568/e2e8f0?text=Your+Photo" alt="Your Photo" class="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-blue-400 shadow-xl transition duration-300 transform hover:scale-105 hover:rotate-3">
+                    <img src="https://github.com/Sandeshb24/sandesh-portfolio.github.io/blob/main/my_profile.jpeg?raw=true" alt="Profile Photo" class="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-blue-400 shadow-xl transition duration-300 transform hover:scale-105 hover:rotate-3">
                 </div>
                 <div class="md:w-2/3 text-left">
                     <p class="text-lg md:text-xl mb-6 leading-relaxed">
-                        Hello! I'm Sandesh, a dedicated professional with a passion for leveraging Machine Learning and Data Science to create impactful solutions. I thrive on bringing ideas to life through robust and intelligent code.
+                        Hello! I'm Sandesh, a dedicated professional with a passion for Data to create impactful insights that will provide solutions. I thrive on bringing ideas to life through robust and intelligent code.
                     </p>
                     <p class="text-lg md:text-xl leading-relaxed">
                         With a strong foundation in Python, C++, SQL, and web technologies, I enjoy tackling complex challenges and continuously learning new skills to stay at the forefront of innovation. When I'm not coding, you can find me exploring new algorithms or contributing to open-source projects.
                     </p>
+                    <p class="text-lg md:text-xl leading-relaxed">
+                        You can contact me via linkedin through <a href="https://www.linkedin.com/in/sandeshrbhat/" style="color: rgb(0, 140, 255);">my LINKEDIN PROFILE.</a> 
+                    </p>
                 </div>
             </div>
 
-            <!-- Stats/Numbers Section -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20 max-w-5xl mx-auto text-center animate-on-scroll" id="stats-section">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20 max-w-5xl mx-auto text-center" id="stats-section">
                 <div class="bg-gray-800 p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-2">
-                    <div class="rolling-number-container text-blue-400" data-target="5">0</div>
-                    <p class="text-xl font-medium mt-2">Years Experience</p>
+                    <div class="rolling-number-container text-blue-400" data-target="24">0</div>
+                    <p class="text-xl font-medium mt-2">Months Experience</p>
                 </div>
                 <div class="bg-gray-800 p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-2">
-                    <div class="rolling-number-container text-yellow-300" data-target="20">0</div>
+                    <div class="rolling-number-container text-yellow-300" data-target="10">0</div>
                     <p class="text-xl font-medium mt-2">Projects Completed</p>
                 </div>
                 <div class="bg-gray-800 p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-2">
@@ -300,9 +295,8 @@
             </div>
         </section>
 
-        <!-- Skills Section -->
         <section id="skills" class="container mx-auto py-20 px-4 text-center animate-on-scroll stagger">
-            <h2 class="text-4xl md:text-5xl font-bold mb-12 text-blue-300 animate-on-scroll">My Skills</h2>
+            <h2 class="text-4xl md:text-5xl font-bold mb-12 text-blue-300">My Skills</h2>
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-5xl mx-auto">
                 <div class="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 hover:scale-105 flex flex-col items-center justify-center">
                     <i class="fas fa-brain text-6xl text-purple-400 mb-4"></i>
@@ -311,6 +305,9 @@
                 <div class="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 hover:scale-105 flex flex-col items-center justify-center">
                     <i class="fas fa-chart-line text-6xl text-green-400 mb-4"></i>
                     <h3 class="text-2xl font-semibold">Data Science</h3>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 hover:scale-105 flex flex-col items-center justify-center">
+                    <i class="fas fa-chart-area text-6xl text-cyan-400 mb-4"></i> <h3 class="text-2xl font-semibold">Data Analysis</h3>
                 </div>
                 <div class="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 hover:scale-105 flex flex-col items-center justify-center">
                     <i class="fas fa-code text-6xl text-blue-500 mb-4"></i>
@@ -330,61 +327,60 @@
                 </div>
                 <div class="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 hover:scale-105 flex flex-col items-center justify-center">
                     <i class="fab fa-python text-6xl text-yellow-500 mb-4"></i>
-                    <h3 class="text-2xl font-semibold">Python Advanced</h3>
+                    <h3 class="text-2xl font-semibold"> Advanced Python</h3>
                 </div>
             </div>
         </section>
 
-        <!-- Projects Section -->
         <section id="projects" class="container mx-auto py-20 px-4 text-center animate-on-scroll stagger">
             <h2 class="text-4xl md:text-5xl font-bold mb-12 text-blue-300 animate-on-scroll">My Projects</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto">
                 <div class="bg-gray-800 rounded-xl project-card">
                     <img src="https://placehold.co/600x400/2d3748/e2e8f0?text=Project+1" alt="Project 1" class="w-full h-56 object-cover rounded-t-xl">
                     <div class="p-6">
-                        <h3 class="text-2xl font-semibold mb-2">Project Title One</h3>
-                        <p class="text-gray-400 text-lg">A brief description of this awesome project, highlighting key features and technologies used.</p>
+                        <h3 class="text-2xl font-semibold mb-2">Loan Predictor</h3>
+                        <p class="text-gray-400 text-lg">A Robust Machine Learning model based Web app that predicts if your loan will be approved or not.</p>
                     </div>
                     <div class="project-overlay rounded-xl">
-                        <h4 class="text-white text-3xl font-bold mb-4">Project One</h4>
-                        <p class="text-gray-300 text-center px-4 mb-4">Developed using React, Node.js, and MongoDB. Focused on creating a seamless user experience.</p>
-                        <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-full transition duration-300">View Project</a>
+                        <h4 class="text-white text-3xl font-bold mb-4">Random Forest Classifier Model Based App</h4>
+                        <p class="text-gray-300 text-center px-4 mb-4">Developed using Python, sklearn, and streamlit. Focused on creating a accurate model for predicting loan apoprroval chances.</p>
+                        <a href="https://loan-predictor-guess.streamlit.app/#enter-applicant-details" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-full transition duration-300">View Project</a>
                     </div>
                 </div>
 
                 <div class="bg-gray-800 rounded-xl project-card">
                     <img src="https://placehold.co/600x400/2d3748/e2e8f0?text=Project+2" alt="Project 2" class="w-full h-56 object-cover rounded-t-xl">
                     <div class="p-6">
-                        <h3 class="text-2xl font-semibold mb-2">Project Title Two</h3>
-                        <p class="text-gray-400 text-lg">This project showcases my front-end skills with complex animations and responsive design.</p>
+                        <h3 class="text-2xl font-semibold mb-2">AI Workout Planner</h3>
+                        <p class="text-gray-400 text-lg">This application is a AI based Gym  Workout Planner that helps to curate a personalized weekly workout plan based on their fitness goals, preferences, and available resources.</p>
                     </div>
                     <div class="project-overlay rounded-xl">
-                        <h4 class="text-white text-3xl font-bold mb-4">Project Two</h4>
-                        <p class="text-gray-300 text-center px-4 mb-4">A static website built with HTML, CSS, and vanilla JavaScript. Features an interactive gallery.</p>
-                        <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-full transition duration-300">View Project</a>
+                        <h4 class="text-white text-3xl font-bold mb-4">Rule Based Workout creation</h4>
+                        <p class="text-gray-300 text-center px-4 mb-4">Developed using Python and streamlit, focusing on applying rule based dynamic plan allocation.</p>
+                        <a href="https://workout-planner-ai.streamlit.app/" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-full transition duration-300">View Project</a>
                     </div>
                 </div>
 
                 <div class="bg-gray-800 rounded-xl project-card">
-                    <img src="https://placehold.co/600x400/2d3748/e2e8f0?text=Project+3" alt="Project 3" class="w-full h-56 object-cover rounded-t-xl">
+                    <img src="https://placehold.co/600x400/2d3748/e2e8f0?text=More..." alt="Project 3" class="w-full h-56 object-cover rounded-t-xl">
                     <div class="p-6">
-                        <h3 class="text-2xl font-semibold mb-2">Project Title Three</h3>
-                        <p class="text-gray-400 text-lg">An e-commerce platform concept, focusing on clean UI/UX and product presentation.</p>
+                        <h3 class="text-2xl font-semibold mb-2">Explore more</h3>
+                        <p class="text-gray-400 text-lg">Checkout my github repositories for diversified projects and codes using various technologies</p>
                     </div>
                     <div class="project-overlay rounded-xl">
-                        <h4 class="text-white text-3xl font-bold mb-4">Project Three</h4>
-                        <p class="text-gray-300 text-center px-4 mb-4">Designed a full e-commerce flow, from product listing to checkout. Used Figma for design prototyping.</p>
-                        <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-full transition duration-300">View Project</a>
+                        <h4 class="text-white text-3xl font-bold mb-4">GitHub Repo</h4>
+                        <p class="text-gray-300 text-center px-4 mb-4">This Repository dashboard contains some of my key projects that I have developed over the period of my academic and professional career</p>
+                        <a href="https://github.com/Sandeshb24/" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-full transition duration-300">View Repositories</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Contact Section -->
         <section id="contact" class="container mx-auto py-20 px-4 text-center animate-on-scroll">
             <h2 class="text-4xl md:text-5xl font-bold mb-12 text-blue-300 animate-on-scroll">Get In Touch</h2>
             <div class="max-w-xl mx-auto bg-gray-800 p-8 rounded-xl shadow-lg animate-on-scroll">
                 <p class="text-lg mb-6">Have a question or want to work together? Send me a message!</p>
+                <p class="text-lg mb-6">[Alternate: Email me at sandeshrbhat24@gmail.com ]</p>
                 <form id="contactForm" class="space-y-6">
                     <div>
                         <label for="name" class="block text-left text-gray-300 text-lg font-medium mb-2">Name</label>
@@ -407,19 +403,16 @@
         </section>
     </main>
 
-    <!-- Footer -->
     <footer class="bg-gray-900 bg-opacity-80 py-10 mt-20 text-center text-gray-400 relative z-10">
         <div class="container mx-auto px-4">
             <p>&copy; 2025 Sandesh Ravindra Bhat. All rights reserved.</p>
             <div class="flex justify-center space-x-6 mt-4">
                 <a href="https://www.linkedin.com/in/sandeshrbhat/" class="text-gray-400 hover:text-blue-400 transition duration-300 text-2xl" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
                 <a href="https://github.com/Sandeshb24/" class="text-gray-400 hover:text-blue-400 transition duration-300 text-2xl" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                
             </div>
         </div>
     </footer>
 
-    <!-- Back to top button -->
     <button id="back-to-top" class="focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-75">
         <i class="fas fa-arrow-up"></i>
     </button>
@@ -623,27 +616,18 @@
             const observer = new IntersectionObserver((entries, observer) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
-                        if (entry.target.id === 'stats-section') {
-                            // Trigger rolling numbers animation when stats section is visible
-                            entry.target.querySelectorAll('.rolling-number-container').forEach(numElement => {
-                                const target = parseInt(numElement.dataset.target);
-                                animateNumber(numElement, target);
+                        // General scroll animation for elements
+                        entry.target.classList.add('is-visible');
+                        if (entry.target.classList.contains('stagger')) {
+                            // For staggered children, apply visibility with delay
+                            Array.from(entry.target.children).forEach((child, index) => {
+                                if (!child.classList.contains('animate-on-scroll') && child.tagName.toLowerCase() !== 'h2') {
+                                    setTimeout(() => {
+                                        child.style.opacity = '1';
+                                        child.style.transform = 'translateY(0)';
+                                    }, index * 100);
+                                }
                             });
-                        } else {
-                            // General scroll animation for other sections
-                            entry.target.classList.add('is-visible');
-                            if (entry.target.classList.contains('stagger')) {
-                                // For staggered children, apply visibility with delay
-                                Array.from(entry.target.children).forEach((child, index) => {
-                                    // Ensure it's not the h2 (which is usually animated separately)
-                                    if (!child.classList.contains('animate-on-scroll') && child.tagName.toLowerCase() !== 'h2') {
-                                        setTimeout(() => {
-                                            child.style.opacity = '1';
-                                            child.style.transform = 'translateY(0)';
-                                        }, index * 100);
-                                    }
-                                });
-                            }
                         }
                         observer.unobserve(entry.target); // Stop observing once animated
                     }
@@ -672,6 +656,30 @@
                 }
                 requestAnimationFrame(updateNumber);
             }
+
+            // --- Rolling Numbers Animation Initialization ---
+            const statsSection = document.getElementById('stats-section');
+            const rollingNumberContainers = statsSection.querySelectorAll('.rolling-number-container');
+
+            // Create a specific observer for the stats section to trigger animations
+            const statsObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        rollingNumberContainers.forEach(numElement => {
+                            const target = parseInt(numElement.dataset.target);
+                            animateNumber(numElement, target);
+                        });
+                        observer.unobserve(entry.target); // Stop observing once animated
+                    }
+                });
+            }, {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.5 // Adjust threshold if needed for when it triggers
+            });
+
+            statsObserver.observe(statsSection); // Start observing the stats section
+
 
             // Form Submission Handler (for GitHub Pages - no backend)
             const contactForm = document.getElementById('contactForm');
